@@ -1,0 +1,8 @@
+Pflichtenheft: 
+Beschreibt die Realisierung aller Anforderungen (Traceability). Ist die
+Basis der Verifikation (Systemtest, Funktionaler Test). Beschreibt auch alle
+Fehler(meldungen). Am besten in der Form von Storyboards, use cases, GUI
+Prototypen (ein Bild tausend Worte). Erwaehnt die Techniken und Technologien
+(tools), die fuer die Realisierung benutzt werden. Ist das wichtigste Dokument fuer 
+2
+zukuenftige Aenderungen. Beschreibt das ‚WIE‘.

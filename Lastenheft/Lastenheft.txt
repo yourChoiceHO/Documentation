@@ -1,0 +1,4 @@
+Lastenheft (LH): 
+Umfeld des Kunden, Umfeld der Applikation, Anforderungen
+(FURPS+), nummeriert (Traceability), inkl.Akzeptanzkriterien, Glossar (wenn noetig);
+ist die Basis fuer die Validation (Akzeptanztest). Beschreibt das ‚WAS‘.

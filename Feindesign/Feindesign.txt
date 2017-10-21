@@ -1,0 +1,6 @@
+SW Spec-1 und SW Spec-2: 
+alles was hilft: Klassendiagramme, UML, Databasecharts,
+Flowcharts. Oft ist die Abgrenzung zwischen Grob und Feindesign schwierig. Grob
+(Grobdesign...) gesagt: SW Spec -1 besteht aus UI, Kommunikation, Datenbank und
+Output (GUI, Interfaces) und ist die Basis fuer den Integrationstest. Obserste Ebene
+fuer Dataflowcharts.
