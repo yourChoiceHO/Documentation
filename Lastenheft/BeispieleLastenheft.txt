@@ -1,0 +1,21 @@
+Nützliche Links mit Beispielen für ein Lastenheft:
+
+——————
+
+kurze Beispiele:
+
+http://www.seikumu.de/de/dok/dok-anforderungsanalyse/Beispiel-Lastenheft.pdf
+
+http://ftp.uni-kl.de/pub/v-modell-xt/Release-1.2/Beispielprojekte/WiBe/Anforderungen-Lastenheft.pdf
+
+———————
+
+sehr ausführliches Beispiel:
+
+http://www.mittelstand-digital.de/MD/Redaktion/DE/PDF/vorlage-fuer-lastenheft-fuer-softwareauswahl,property=pdf,bereich=md,sprache=de,rwb=true.pdf
+
+———————
+
+Allgemeine Erklärung:
+
+http://zukunftsarchitekten-podcast.de/5-schritte-zur-erstellung-eines-guten-lastenheftes/
