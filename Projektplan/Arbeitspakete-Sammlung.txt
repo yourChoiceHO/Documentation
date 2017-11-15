@@ -1,0 +1,47 @@
+Sammlung der Arbeitspakete
+
+Frontend:
+
+Adminoberfläche
+Moderatoroberfläche (abgespeckte Admin)
+Useroberfläche für Wähler
+
+Welche Seiten?
+Admin/Moderator:
+Login(beide)
+Übersichtseite
+Hilfeseite (Erläuterungen)
+Wahlen anlegen
+Wahlen auswerten (Wahlergebnisse)
+Verlaufsseite vergangene Wahlen
+
+Wähler:
+Login
+Übersichtseite
+Hilfeseite (Erläuterungen)
+Wahlstimme abgeben
+Bestätigung doppelt
+
+Service, der Frontend mit Backend mapped
+
+Backend:
+REST-Service mit Spring ->Tests
+MySQL-Datenbank
+Tabellen erstellen
+Use erstellen
+Entity-Klassen über Hibernate Mapping mit DB verknüpfen
+Result-Klassen
+Modell-Klassen bilden 1:1-Tabellen ab
+Data Access Obejct Klassen (Funktionen über HQL aus DB holen)
+Services (Klasse und Interface)
+Controller, die URLs mappen
+Verschlüsselung (credentials) Security
+View = REST-API
+
+Sicherheitsstruktur
+
+Aufbau des Projekts in IDE (Gradle oder Maven Libery aus Internet herunterladen)
+
+Projekt lauffähig? Builden, was wird gebraucht
+
+Test Driven Development
