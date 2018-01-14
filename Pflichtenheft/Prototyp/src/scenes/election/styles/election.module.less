@@ -1,0 +1,92 @@
+@import "../../../themes/default.less";
+
+.actions {
+  display: flex;
+}
+
+.action {
+  display: inline-block;
+  margin-bottom: @padding-lg;
+
+  &--left {
+    margin-left: 0;
+  }
+
+  &--right {
+    margin-left: auto;
+    margin-right: 0;
+
+    & + & {
+      margin-left: @padding-sm;
+    }
+  }
+
+  @media only screen and (max-width: @screen-sm) {
+    margin-bottom: 0 @padding-sm;
+  }
+}
+
+.title {
+  margin: 0 auto @padding-md auto;
+  font-size: 1.825em;
+}
+
+.empty-text {
+  color: @text-color-secondary;
+  font-size: @font-size-base;
+  padding: 16px;
+  text-align: center;
+}
+
+.field {
+  width: 100%;
+}
+
+.picker {
+  display: flex;
+  justify-content: space-between;
+}
+
+.date + .time {
+  margin-left: @padding-sm;
+}
+
+.date {
+  flex: 3;
+}
+
+.time {
+  flex: 2;
+}
+
+.upload {
+  p {
+    padding: @padding-md;
+    margin: 0;
+  }
+
+  &-row {
+    flex: 1;
+    display: flex;
+  }
+
+  &-column {
+    flex: 1;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+
+  &-title {
+    font-size: 1.825em;
+    margin: 0 auto @padding-md;
+    text-align: center;
+    align-self: flex-start;
+  }
+
+  &-icon {
+    font-size: calc(1vmax * 8rem);
+  }
+}

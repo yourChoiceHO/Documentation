@@ -1,0 +1,27 @@
+@import "../../../themes/default.less";
+
+.content {
+  margin: 0 auto;
+  width: 100%;
+  max-width: @screen-xl;
+  padding: 0 @padding-lg;
+  display: flex;
+  flex-flow: column wrap;
+
+  @media only screen and (max-width: @screen-sm) {
+    padding: 0 @padding-sm;
+  }
+}
+
+.card {
+  flex: 1;
+  padding: @padding-lg;
+  border: @border-width-base @border-style-base @border-color-split;
+  background: @component-background;
+  border-radius: @border-radius-sm;
+  display: flex;
+
+  @media only screen and (max-width: @screen-sm) {
+    padding: @padding-sm;
+  }
+}

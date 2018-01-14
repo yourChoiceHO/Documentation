@@ -1,0 +1,48 @@
+@import "../../themes/default.less";
+
+.not-found {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: @padding-lg;
+
+  @media only screen and (max-width: @screen-sm) {
+    padding: @padding-sm;
+  }
+}
+
+.question {
+  font-size: calc(1vmax * 12rem);
+}
+
+.title {
+  margin: 0 0 @padding-md 0;
+}
+
+.notice {
+  text-align: center;
+}
+
+.paragraph {
+  text-align: left;
+}
+
+.link {
+  padding: 0 @padding-xs;
+  color: @btn-primary-color;
+
+  &:hover {
+    color: @btn-primary-color;
+  }
+
+  &:active {
+    color: @btn-primary-color;
+  }
+
+  &:active,
+  &:hover {
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,38 @@
+@import "../../../themes/default.less";
+
+.usb,
+.fingerprint {
+  font-size: calc(1vmax * 15rem);
+}
+
+.alert {
+  margin-bottom: @form-item-margin-bottom;
+}
+
+.form {
+  max-width: @screen-xs-max;
+  width: 100%;
+}
+
+.step {
+  text-align: center;
+}
+
+.steps {
+  display: flex;
+  flex-flow: column wrap;
+  flex: 1;
+  justify-content: space-between;
+
+  &-content {
+    flex: 0 1 @screen-xs-max;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &-action {
+    display: flex;
+    justify-content: space-between;
+  }
+}

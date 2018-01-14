@@ -1,0 +1,30 @@
+@import "../../../themes/default.less";
+
+.paragraph {
+  margin: 0 0 @padding-sm 0;
+
+  &:last-child {
+    margin: 0;
+  }
+}
+
+.footer {
+  width: 100%;
+
+  padding: 0 0 @padding-lg 0;
+
+  text-align: center;
+
+  @media only screen and (max-width: @screen-sm) {
+    padding: 0 0 @padding-sm 0;
+  }
+}
+
+.horizontal-divider {
+  margin-top: 1px;
+  margin-bottom: @padding-lg;
+
+  @media only screen and (max-width: @screen-sm) {
+    margin-bottom: @padding-sm;
+  }
+}

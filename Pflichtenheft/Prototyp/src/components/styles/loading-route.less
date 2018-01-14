@@ -1,0 +1,17 @@
+@import "../../../node_modules/nprogress/nprogress.css";
+@import "../../themes/default.less";
+
+@progress-color: @primary-color;
+
+#nprogress .bar {
+  background: @progress-color;
+}
+
+#nprogress .peg {
+  box-shadow: 0 0 10px @progress-color, 0 0 5px @progress-color;
+}
+
+#nprogress .spinner-icon {
+  border-top-color: @progress-color;
+  border-left-color: @progress-color;
+}
