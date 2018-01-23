@@ -1,2 +1,6 @@
-Hier können alle Designideen reingeschrieben werden.
+﻿Hier können alle Designideen reingeschrieben werden.
 Egal wie gut oder schlecht es erstmal erscheint, schreibt es einfach rein.
+
+Checksummenangabe beim Listen Upload. "Listen-Ersteller" überträgt uns die Liste mit Checksumme.
+Nach dem Upload wird ebenfalls eine Summe zur Integritätsprüfung berechnet und mit der mitgelieferten Summe verglichen.
+So kann sichergestellt werden, dass es sich auch wirklich um die übertragenen Daten handelt.
