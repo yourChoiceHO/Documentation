@@ -1,0 +1,73 @@
+{
+  "general": {
+    "parties": {
+      "0": {
+        "name": "",
+        "vote_number": "",
+        "vote_percent": ""
+      },
+      "1": {
+        "name": "",
+        "vote_number": "",
+        "vote_percent": ""
+      }
+    },
+    "candidates": {
+      "0": {
+        "last_name": "",
+        "first_name": "",
+        "party": "",
+        "constituency": "",
+        "vote_percent": ""
+      }
+    }
+  },
+  "constituency": {
+    "1": {
+      "parties": {
+        "0": {
+          "name": "",
+          "vote_number": "",
+          "vote_percent": ""
+        },
+        "1": {
+          "name": "",
+          "vote_number": "",
+          "vote_percent": ""
+        }
+      },
+      "candidates": {
+        "0": {
+          "last_name": "",
+          "first_name": "",
+          "party": "",
+          "vote_number": "",
+          "vote_percent": ""
+        }
+      }
+    },
+    "2": {
+      "parties": {
+        "0": {
+          "name": "",
+          "vote_number": "",
+          "vote_percent": ""
+        },
+        "1": {
+          "name": "",
+          "vote_number": "",
+          "vote_percent": ""
+        }
+      },
+      "candidates": {
+        "0": {
+          "last_name": "",
+          "first_name": "",
+          "party": "",
+          "vote_number": "",
+          "vote_percent": ""
+        }
+      }
+    }
+  }
+}
