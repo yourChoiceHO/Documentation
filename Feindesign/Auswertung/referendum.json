@@ -1,0 +1,13 @@
+{
+  "general": {
+    "text":"",
+    "yes":{
+      "vote_number":"",
+      "vote_percent":""
+    },
+    "no":{
+      "vote_number":"",
+      "vote_percent":""
+    }
+  }
+}
