@@ -1,0 +1,14 @@
+{
+  "general": {
+    "candidates": {
+      "0": {
+        "last_name": "",
+        "first_name": "",
+        "party": "",
+        "constituency": "",
+        "vote_percent": "",
+        "vote_number":""
+      }
+    }
+  }
+}
