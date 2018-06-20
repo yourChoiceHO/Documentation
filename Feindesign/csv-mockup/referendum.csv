@@ -1,3 +1,8 @@
 text,constituency
+<<<<<<< Updated upstream
 Handelt es sich bei dieser Frage um die erste Frage?,1
 Erwarten Sie auch noch weitere Fragen?,1
+=======
+Eine Frage,55
+Noch eine Frage, 45
+>>>>>>> Stashed changes
