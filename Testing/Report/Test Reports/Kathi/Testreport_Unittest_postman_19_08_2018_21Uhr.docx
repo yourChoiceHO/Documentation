@@ -1,0 +1,7520 @@
+{
+	"id": "d8b0fd8a-b497-4a02-9940-835a0350b574",
+	"name": "Integrationstest",
+	"allTests": [],
+	"timestamp": "2018-06-19T19:02:40.416Z",
+	"collection_id": "5f8cc842-55a0-4ef5-968b-7fcd84e20869",
+	"folder_id": 0,
+	"target_type": "collection",
+	"environment_id": "0",
+	"data": [],
+	"delay": 0,
+	"count": 1,
+	"collection": {
+		"id": "5f8cc842-55a0-4ef5-968b-7fcd84e20869",
+		"name": "Integrationstest",
+		"description": null,
+		"auth": null,
+		"events": null,
+		"variables": null,
+		"order": [],
+		"folders_order": [
+			"14569a2c-a258-4639-959b-96aaeb606242",
+			"3c7ebbe2-a077-45ad-8b04-e96bf1cf0f44",
+			"5eb33a82-ec1e-473a-a2e4-a720571c7f30",
+			"484d1aa1-4baa-4bd7-b809-8905c83f480a",
+			"9a57d0dc-0249-455a-b67e-ad0846643f55",
+			"9a054a1a-9a6b-4d9c-8e24-2058b6ed6b30",
+			"9e2b4cee-2377-4b2f-a5c3-9cf3e42385b2"
+		],
+		"owner": "4546687",
+		"permissions": {},
+		"favorite": false,
+		"shared": false,
+		"type": "collection",
+		"depth": 0
+	},
+	"folder": null,
+	"environment": null,
+	"globals": [
+		{
+			"key": "id_election_bundestag",
+			"value": 1,
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "id_election_landtag",
+			"value": 2,
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "id_election_landtagbw",
+			"value": 3,
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "id_election_landtagsl",
+			"value": 4,
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "id_election_buerger",
+			"value": 5,
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "id_election_europa",
+			"value": 6,
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "id_election_ref",
+			"value": 25,
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "id_voter",
+			"value": 1,
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "id_party_bund1",
+			"value": 1,
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "id_party_bund2",
+			"value": 2,
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "id_party_landtag1",
+			"value": 3,
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "id_party_land2",
+			"value": 4,
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "id_party_landsl1",
+			"value": 5,
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "id_party_landsl2",
+			"value": 6,
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "id_candidate_bund1",
+			"value": 1,
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "id_candidate_bund2",
+			"value": 2,
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "id_candidate_land1",
+			"value": 3,
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "id_candidate_land2",
+			"value": 4,
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "id_candidate_landbw1",
+			"value": 7,
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "id_candidate_landbw2",
+			"value": 8,
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "id_candidate_buerger1",
+			"value": 9,
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "id_candidate_buerger2",
+			"value": 10,
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "id_candidate_europa1",
+			"value": 11,
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "id_candidate_europa2",
+			"value": 12,
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "tokenUser",
+			"value": "CCTCLWYcZOkM9QU8EzOuZAofdi24QelZl5voHRHoV0Xl90ETH3",
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "id_election_ref1",
+			"value": 7,
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "id_election_ref2",
+			"value": 8,
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "id_voter_bund",
+			"value": 1,
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "id_voter_land",
+			"value": 2,
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "id_voter_landbw",
+			"value": 3,
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "id_voter_landsl",
+			"value": 4,
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "id_voter_buerger",
+			"value": 5,
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "id_voter_europa",
+			"value": 6,
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "id_voter_ref",
+			"value": 7,
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "id_referendum1",
+			"value": 1,
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "id_referendum2",
+			"value": 2,
+			"enabled": true,
+			"type": "text"
+		}
+	],
+	"results": [
+		{
+			"name": "loginUser",
+			"id": "9c175bc8-9360-4593-854b-e58ff665e28d",
+			"url": "http://yourchoice.local/api/login/user",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"name": "Status code is 200",
+				"status": "pass",
+				"Has token": true,
+				"Has role": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has token": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has role": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"631"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has token": true,
+					"Has role": true
+				}
+			],
+			"time": "631",
+			"totalRequestTime": "631",
+			"iterationResults": {}
+		},
+		{
+			"name": "election Bundestag",
+			"id": "a2c9f662-310b-45bd-a8a4-ecb0f160f6bf",
+			"url": "http://yourChoice.local/api/election",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"tests": {
+				"name": "Status code is 200",
+				"status": "pass",
+				"Has id_election": true,
+				"Has typ": true,
+				"Has text": true,
+				"Has state": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_election": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has typ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has text": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has state": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"602"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has id_election": true,
+					"Has typ": true,
+					"Has text": true,
+					"Has state": true
+				}
+			],
+			"time": "602",
+			"totalRequestTime": "602",
+			"iterationResults": {}
+		},
+		{
+			"name": "election Bundestag",
+			"id": "3c61b6a4-d8e2-4483-9274-28469e5281db",
+			"url": "http://yourchoice.local/api/election/9?token=BLbUP1N0aaQvdxusjBIVmnLiAJhQLZpN2f6NTe6hR1xxYwizUV",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"name": "Status code is 200",
+				"status": "pass",
+				"Has id_election": true,
+				"Has typ": true,
+				"Has text": true,
+				"Has state": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_election": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has typ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has text": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has state": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"490"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has id_election": true,
+					"Has typ": true,
+					"Has text": true,
+					"Has state": true
+				}
+			],
+			"time": "490",
+			"totalRequestTime": "490",
+			"iterationResults": {}
+		},
+		{
+			"name": "election Landtag",
+			"id": "28cda788-c1dc-4950-9366-8e87370c9a55",
+			"url": "http://yourChoice.local/api/election",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"tests": {
+				"name": "Status code is 200",
+				"status": "pass",
+				"Has id_election": true,
+				"Has typ": true,
+				"Has text": true,
+				"Has state": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_election": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has typ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has text": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has state": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"287"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has id_election": true,
+					"Has typ": true,
+					"Has text": true,
+					"Has state": true
+				}
+			],
+			"time": "287",
+			"totalRequestTime": "287",
+			"iterationResults": {}
+		},
+		{
+			"name": "election Landtag",
+			"id": "dda2c90c-11ef-427d-9b6b-8202785ebbf8",
+			"url": "http://yourchoice.local/api/election/10?token=BLbUP1N0aaQvdxusjBIVmnLiAJhQLZpN2f6NTe6hR1xxYwizUV",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"name": "Status code is 200",
+				"status": "pass",
+				"Has id_election": true,
+				"Has typ": true,
+				"Has text": true,
+				"Has state": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_election": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has typ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has text": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has state": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"280"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has id_election": true,
+					"Has typ": true,
+					"Has text": true,
+					"Has state": true
+				}
+			],
+			"time": "280",
+			"totalRequestTime": "280",
+			"iterationResults": {}
+		},
+		{
+			"name": "election LandtagBW",
+			"id": "9acd560c-ef73-46a3-b431-b07224b8c26d",
+			"url": "http://yourChoice.local/api/election",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"tests": {
+				"name": "Status code is 200",
+				"status": "pass",
+				"Has id_election": true,
+				"Has typ": true,
+				"Has text": true,
+				"Has state": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_election": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has typ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has text": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has state": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"291"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has id_election": true,
+					"Has typ": true,
+					"Has text": true,
+					"Has state": true
+				}
+			],
+			"time": "291",
+			"totalRequestTime": "291",
+			"iterationResults": {}
+		},
+		{
+			"name": "election LandtagBW",
+			"id": "6c1c4a5b-6178-4e60-a120-5ca904d6af17",
+			"url": "http://yourchoice.local/api/election/11?token=BLbUP1N0aaQvdxusjBIVmnLiAJhQLZpN2f6NTe6hR1xxYwizUV",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"name": "Status code is 200",
+				"status": "pass",
+				"Has id_election": true,
+				"Has typ": true,
+				"Has text": true,
+				"Has state": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_election": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has typ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has text": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has state": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"256"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has id_election": true,
+					"Has typ": true,
+					"Has text": true,
+					"Has state": true
+				}
+			],
+			"time": "256",
+			"totalRequestTime": "256",
+			"iterationResults": {}
+		},
+		{
+			"name": "election LandtagSL",
+			"id": "cc8a64ac-6058-42a4-b6af-08beb377937f",
+			"url": "http://yourChoice.local/api/election",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"tests": {
+				"name": "Status code is 200",
+				"status": "pass",
+				"Has id_election": true,
+				"Has typ": true,
+				"Has text": true,
+				"Has state": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_election": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has typ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has text": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has state": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"304"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has id_election": true,
+					"Has typ": true,
+					"Has text": true,
+					"Has state": true
+				}
+			],
+			"time": "304",
+			"totalRequestTime": "304",
+			"iterationResults": {}
+		},
+		{
+			"name": "election LandtagSL",
+			"id": "74774419-aa7c-40e1-b3cc-801ed5c6b478",
+			"url": "http://yourchoice.local/api/election/12?token=BLbUP1N0aaQvdxusjBIVmnLiAJhQLZpN2f6NTe6hR1xxYwizUV",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"name": "Status code is 200",
+				"status": "pass",
+				"Has id_election": true,
+				"Has typ": true,
+				"Has text": true,
+				"Has state": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_election": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has typ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has text": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has state": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"291"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has id_election": true,
+					"Has typ": true,
+					"Has text": true,
+					"Has state": true
+				}
+			],
+			"time": "291",
+			"totalRequestTime": "291",
+			"iterationResults": {}
+		},
+		{
+			"name": "election Buerger",
+			"id": "d42ed74d-ce7b-40e0-a693-1bd404d67db1",
+			"url": "http://yourChoice.local/api/election",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"tests": {
+				"name": "Status code is 200",
+				"status": "pass",
+				"Has id_election": true,
+				"Has typ": true,
+				"Has text": true,
+				"Has state": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_election": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has typ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has text": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has state": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"291"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has id_election": true,
+					"Has typ": true,
+					"Has text": true,
+					"Has state": true
+				}
+			],
+			"time": "291",
+			"totalRequestTime": "291",
+			"iterationResults": {}
+		},
+		{
+			"name": "election Buerger",
+			"id": "afa3bfd8-a275-47cb-84f1-88d1d93557df",
+			"url": "http://yourchoice.local/api/election/13?token=BLbUP1N0aaQvdxusjBIVmnLiAJhQLZpN2f6NTe6hR1xxYwizUV",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"name": "Status code is 200",
+				"status": "pass",
+				"Has id_election": true,
+				"Has typ": true,
+				"Has text": true,
+				"Has state": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_election": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has typ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has text": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has state": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"276"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has id_election": true,
+					"Has typ": true,
+					"Has text": true,
+					"Has state": true
+				}
+			],
+			"time": "276",
+			"totalRequestTime": "276",
+			"iterationResults": {}
+		},
+		{
+			"name": "election Europa",
+			"id": "f97b43ac-a04b-4101-86de-c8219833b70e",
+			"url": "http://yourChoice.local/api/election",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"tests": {
+				"name": "Status code is 200",
+				"status": "pass",
+				"Has id_election": true,
+				"Has typ": true,
+				"Has text": true,
+				"Has state": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_election": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has typ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has text": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has state": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"282"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has id_election": true,
+					"Has typ": true,
+					"Has text": true,
+					"Has state": true
+				}
+			],
+			"time": "282",
+			"totalRequestTime": "282",
+			"iterationResults": {}
+		},
+		{
+			"name": "election Europa",
+			"id": "45f314fe-8662-4e12-9ee4-99a2097ad7b2",
+			"url": "http://yourchoice.local/api/election/14?token=BLbUP1N0aaQvdxusjBIVmnLiAJhQLZpN2f6NTe6hR1xxYwizUV",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"name": "Status code is 200",
+				"status": "pass",
+				"Has id_election": true,
+				"Has typ": true,
+				"Has text": true,
+				"Has state": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_election": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has typ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has text": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has state": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"286"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has id_election": true,
+					"Has typ": true,
+					"Has text": true,
+					"Has state": true
+				}
+			],
+			"time": "286",
+			"totalRequestTime": "286",
+			"iterationResults": {}
+		},
+		{
+			"name": "election Ref1",
+			"id": "c352be09-045f-457e-9493-f3fdc6ec4b03",
+			"url": "http://yourChoice.local/api/election",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"tests": {
+				"name": "Status code is 200",
+				"status": "pass",
+				"Has id_election": true,
+				"Has typ": true,
+				"Has text": true,
+				"Has state": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_election": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has typ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has text": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has state": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"297"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has id_election": true,
+					"Has typ": true,
+					"Has text": true,
+					"Has state": true
+				}
+			],
+			"time": "297",
+			"totalRequestTime": "297",
+			"iterationResults": {}
+		},
+		{
+			"name": "election Ref1",
+			"id": "12e22b06-e4bc-4a4a-9588-21cb156522ee",
+			"url": "http://yourchoice.local/api/election/15?token=BLbUP1N0aaQvdxusjBIVmnLiAJhQLZpN2f6NTe6hR1xxYwizUV",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"name": "Status code is 200",
+				"status": "pass",
+				"Has id_election": true,
+				"Has typ": true,
+				"Has text": true,
+				"Has state": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_election": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has typ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has text": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has state": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"268"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has id_election": true,
+					"Has typ": true,
+					"Has text": true,
+					"Has state": true
+				}
+			],
+			"time": "268",
+			"totalRequestTime": "268",
+			"iterationResults": {}
+		},
+		{
+			"name": "election Ref2",
+			"id": "d011c380-ddcb-4bcc-8099-60a197da9bdc",
+			"url": "http://yourChoice.local/api/election",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"tests": {
+				"name": "Status code is 200",
+				"status": "pass",
+				"Has id_election": true,
+				"Has typ": true,
+				"Has text": true,
+				"Has state": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_election": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has typ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has text": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has state": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"276"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has id_election": true,
+					"Has typ": true,
+					"Has text": true,
+					"Has state": true
+				}
+			],
+			"time": "276",
+			"totalRequestTime": "276",
+			"iterationResults": {}
+		},
+		{
+			"name": "election Ref2",
+			"id": "841950d1-4389-4945-bdef-26c1d35aa329",
+			"url": "http://yourchoice.local/api/election/16?token=BLbUP1N0aaQvdxusjBIVmnLiAJhQLZpN2f6NTe6hR1xxYwizUV",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"name": "Status code is 200",
+				"status": "pass",
+				"Has id_election": true,
+				"Has typ": true,
+				"Has text": true,
+				"Has state": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_election": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has typ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has text": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has state": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"298"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has id_election": true,
+					"Has typ": true,
+					"Has text": true,
+					"Has state": true
+				}
+			],
+			"time": "298",
+			"totalRequestTime": "298",
+			"iterationResults": {}
+		},
+		{
+			"name": "voter Bund",
+			"id": "ce112112-397d-48b2-b78b-8ae8da8b2b08",
+			"url": "http://yourchoice.local/api/voter",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"tests": {
+				"name": "Status code is 200",
+				"status": "pass",
+				"Has id_voter": true,
+				"Has last_name": true,
+				"Has first_name": true,
+				"Has hash": true,
+				"Has constituency": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_voter": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has last_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has first_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has hash": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"295"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has id_voter": true,
+					"Has last_name": true,
+					"Has first_name": true,
+					"Has hash": true,
+					"Has constituency": true
+				}
+			],
+			"time": "295",
+			"totalRequestTime": "295",
+			"iterationResults": {}
+		},
+		{
+			"name": "voter Bund",
+			"id": "51204f55-e373-47c5-9696-18af9a63686f",
+			"url": "http://yourchoice.local/api/voter/8?token=BLbUP1N0aaQvdxusjBIVmnLiAJhQLZpN2f6NTe6hR1xxYwizUV",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"name": "Status code is 200",
+				"status": "pass",
+				"Has id_voter": true,
+				"Has last_name": true,
+				"Has first_name": true,
+				"Has hash": true,
+				"Has constituency": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_voter": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has last_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has first_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has hash": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"235"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has id_voter": true,
+					"Has last_name": true,
+					"Has first_name": true,
+					"Has hash": true,
+					"Has constituency": true
+				}
+			],
+			"time": "235",
+			"totalRequestTime": "235",
+			"iterationResults": {}
+		},
+		{
+			"name": "voter Land",
+			"id": "9d0ee1e5-3eeb-44dc-b6bc-19e530b2fe04",
+			"url": "http://yourchoice.local/api/voter",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"tests": {
+				"name": "Status code is 200",
+				"status": "pass",
+				"Has id_voter": true,
+				"Has last_name": true,
+				"Has first_name": true,
+				"Has hash": true,
+				"Has constituency": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_voter": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has last_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has first_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has hash": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"273"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has id_voter": true,
+					"Has last_name": true,
+					"Has first_name": true,
+					"Has hash": true,
+					"Has constituency": true
+				}
+			],
+			"time": "273",
+			"totalRequestTime": "273",
+			"iterationResults": {}
+		},
+		{
+			"name": "voter Land",
+			"id": "a696981d-ae0c-436d-b8e6-19dd31e8db5f",
+			"url": "http://yourchoice.local/api/voter/9?token=BLbUP1N0aaQvdxusjBIVmnLiAJhQLZpN2f6NTe6hR1xxYwizUV",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"name": "Status code is 200",
+				"status": "pass",
+				"Has id_voter": true,
+				"Has last_name": true,
+				"Has first_name": true,
+				"Has hash": true,
+				"Has constituency": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_voter": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has last_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has first_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has hash": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"262"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has id_voter": true,
+					"Has last_name": true,
+					"Has first_name": true,
+					"Has hash": true,
+					"Has constituency": true
+				}
+			],
+			"time": "262",
+			"totalRequestTime": "262",
+			"iterationResults": {}
+		},
+		{
+			"name": "voter LandBW",
+			"id": "026c138c-457a-4d4f-a0a9-72555fa263fc",
+			"url": "http://yourchoice.local/api/voter",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"tests": {
+				"name": "Status code is 200",
+				"status": "pass",
+				"Has id_voter": true,
+				"Has last_name": true,
+				"Has first_name": true,
+				"Has hash": true,
+				"Has constituency": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_voter": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has last_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has first_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has hash": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"281"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has id_voter": true,
+					"Has last_name": true,
+					"Has first_name": true,
+					"Has hash": true,
+					"Has constituency": true
+				}
+			],
+			"time": "281",
+			"totalRequestTime": "281",
+			"iterationResults": {}
+		},
+		{
+			"name": "voter LandBW",
+			"id": "2ee8c3d4-3ed1-4fe6-b8c5-8f91afd829b1",
+			"url": "http://yourchoice.local/api/voter/10?token=BLbUP1N0aaQvdxusjBIVmnLiAJhQLZpN2f6NTe6hR1xxYwizUV",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"name": "Status code is 200",
+				"status": "pass",
+				"Has id_voter": true,
+				"Has last_name": true,
+				"Has first_name": true,
+				"Has hash": true,
+				"Has constituency": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_voter": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has last_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has first_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has hash": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"272"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has id_voter": true,
+					"Has last_name": true,
+					"Has first_name": true,
+					"Has hash": true,
+					"Has constituency": true
+				}
+			],
+			"time": "272",
+			"totalRequestTime": "272",
+			"iterationResults": {}
+		},
+		{
+			"name": "voter LandSL",
+			"id": "8dc44dee-9942-4534-825a-f875a7528758",
+			"url": "http://yourchoice.local/api/voter",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"tests": {
+				"name": "Status code is 200",
+				"status": "pass",
+				"Has id_voter": true,
+				"Has last_name": true,
+				"Has first_name": true,
+				"Has hash": true,
+				"Has constituency": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_voter": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has last_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has first_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has hash": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"307"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has id_voter": true,
+					"Has last_name": true,
+					"Has first_name": true,
+					"Has hash": true,
+					"Has constituency": true
+				}
+			],
+			"time": "307",
+			"totalRequestTime": "307",
+			"iterationResults": {}
+		},
+		{
+			"name": "voter LandSL",
+			"id": "0e59fe8b-9b4a-453a-a5f4-73d511689a33",
+			"url": "http://yourchoice.local/api/voter/11?token=BLbUP1N0aaQvdxusjBIVmnLiAJhQLZpN2f6NTe6hR1xxYwizUV",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"name": "Status code is 200",
+				"status": "pass",
+				"Has id_voter": true,
+				"Has last_name": true,
+				"Has first_name": true,
+				"Has hash": true,
+				"Has constituency": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_voter": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has last_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has first_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has hash": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"263"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has id_voter": true,
+					"Has last_name": true,
+					"Has first_name": true,
+					"Has hash": true,
+					"Has constituency": true
+				}
+			],
+			"time": "263",
+			"totalRequestTime": "263",
+			"iterationResults": {}
+		},
+		{
+			"name": "voter Buerger",
+			"id": "775b9579-1aa5-4018-b375-40ab209bc7da",
+			"url": "http://yourchoice.local/api/voter",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"tests": {
+				"name": "Status code is 200",
+				"status": "pass",
+				"Has id_voter": true,
+				"Has last_name": true,
+				"Has first_name": true,
+				"Has hash": true,
+				"Has constituency": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_voter": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has last_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has first_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has hash": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"299"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has id_voter": true,
+					"Has last_name": true,
+					"Has first_name": true,
+					"Has hash": true,
+					"Has constituency": true
+				}
+			],
+			"time": "299",
+			"totalRequestTime": "299",
+			"iterationResults": {}
+		},
+		{
+			"name": "voter Buerger",
+			"id": "cc4c8753-f340-46d5-8881-299910ef127a",
+			"url": "http://yourchoice.local/api/voter/12?token=BLbUP1N0aaQvdxusjBIVmnLiAJhQLZpN2f6NTe6hR1xxYwizUV",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"name": "Status code is 200",
+				"status": "pass",
+				"Has id_voter": true,
+				"Has last_name": true,
+				"Has first_name": true,
+				"Has hash": true,
+				"Has constituency": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_voter": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has last_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has first_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has hash": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"268"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has id_voter": true,
+					"Has last_name": true,
+					"Has first_name": true,
+					"Has hash": true,
+					"Has constituency": true
+				}
+			],
+			"time": "268",
+			"totalRequestTime": "268",
+			"iterationResults": {}
+		},
+		{
+			"name": "voter Europa",
+			"id": "e6ac0162-77f0-4b1c-8caa-0c292b7b52fc",
+			"url": "http://yourchoice.local/api/voter",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"tests": {
+				"name": "Status code is 200",
+				"status": "pass",
+				"Has id_voter": true,
+				"Has last_name": true,
+				"Has first_name": true,
+				"Has hash": true,
+				"Has constituency": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_voter": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has last_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has first_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has hash": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"295"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has id_voter": true,
+					"Has last_name": true,
+					"Has first_name": true,
+					"Has hash": true,
+					"Has constituency": true
+				}
+			],
+			"time": "295",
+			"totalRequestTime": "295",
+			"iterationResults": {}
+		},
+		{
+			"name": "voter Europa",
+			"id": "27545f8a-21d0-43fc-9944-c1a66e1849df",
+			"url": "http://yourchoice.local/api/voter/13?token=BLbUP1N0aaQvdxusjBIVmnLiAJhQLZpN2f6NTe6hR1xxYwizUV",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"name": "Status code is 200",
+				"status": "pass",
+				"Has id_voter": true,
+				"Has last_name": true,
+				"Has first_name": true,
+				"Has hash": true,
+				"Has constituency": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_voter": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has last_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has first_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has hash": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"286"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has id_voter": true,
+					"Has last_name": true,
+					"Has first_name": true,
+					"Has hash": true,
+					"Has constituency": true
+				}
+			],
+			"time": "286",
+			"totalRequestTime": "286",
+			"iterationResults": {}
+		},
+		{
+			"name": "voter Ref",
+			"id": "c96a5332-e067-4c57-9b4c-9c016e17d1cb",
+			"url": "http://yourchoice.local/api/voter",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"tests": {
+				"name": "Status code is 200",
+				"status": "pass",
+				"Has id_voter": true,
+				"Has last_name": true,
+				"Has first_name": true,
+				"Has hash": true,
+				"Has constituency": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_voter": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has last_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has first_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has hash": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"342"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has id_voter": true,
+					"Has last_name": true,
+					"Has first_name": true,
+					"Has hash": true,
+					"Has constituency": true
+				}
+			],
+			"time": "342",
+			"totalRequestTime": "342",
+			"iterationResults": {}
+		},
+		{
+			"name": "voter Ref",
+			"id": "04d11359-f0de-4888-b52b-0992c051f036",
+			"url": "http://yourchoice.local/api/voter/14?token=BLbUP1N0aaQvdxusjBIVmnLiAJhQLZpN2f6NTe6hR1xxYwizUV",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"name": "Status code is 200",
+				"status": "pass",
+				"Has id_voter": true,
+				"Has last_name": true,
+				"Has first_name": true,
+				"Has hash": true,
+				"Has constituency": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_voter": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has last_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has first_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has hash": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"260"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has id_voter": true,
+					"Has last_name": true,
+					"Has first_name": true,
+					"Has hash": true,
+					"Has constituency": true
+				}
+			],
+			"time": "260",
+			"totalRequestTime": "260",
+			"iterationResults": {}
+		},
+		{
+			"name": "party Bund1",
+			"id": "e3c9f7d9-3383-432f-9cb4-c13e7266b9a1",
+			"url": "http://yourchoice.local/api/party",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"tests": {
+				"name": "Status code is 200",
+				"status": "pass",
+				"Has id_party": true,
+				"Has name": true,
+				"Has text": true,
+				"Has constituency": true,
+				"Has election_id": true,
+				"Has vote": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_party": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has text": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has vote": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"266"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has id_party": true,
+					"Has name": true,
+					"Has text": true,
+					"Has constituency": true,
+					"Has election_id": true,
+					"Has vote": true
+				}
+			],
+			"time": "266",
+			"totalRequestTime": "266",
+			"iterationResults": {}
+		},
+		{
+			"name": "party Bund1",
+			"id": "22c16000-6362-40a0-8997-ed775a917588",
+			"url": "http://yourchoice.local/api/party/7?token=BLbUP1N0aaQvdxusjBIVmnLiAJhQLZpN2f6NTe6hR1xxYwizUV",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"name": "Status code is 200",
+				"status": "pass",
+				"Has id_party": true,
+				"Has name": true,
+				"Has text": true,
+				"Has constituency": true,
+				"Has election_id": true,
+				"Has vote": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_party": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has text": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has vote": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"270"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has id_party": true,
+					"Has name": true,
+					"Has text": true,
+					"Has constituency": true,
+					"Has election_id": true,
+					"Has vote": true
+				}
+			],
+			"time": "270",
+			"totalRequestTime": "270",
+			"iterationResults": {}
+		},
+		{
+			"name": "party Bund2",
+			"id": "79116eda-13ae-4070-af7c-945aa023169b",
+			"url": "http://yourchoice.local/api/party",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"tests": {
+				"name": "Status code is 201",
+				"status": "pass",
+				"Has id_party": true,
+				"Has name": true,
+				"Has text": true,
+				"Has constituency": true,
+				"Has election_id": true,
+				"Has vote": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_party": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has text": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has vote": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"289"
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"Has id_party": true,
+					"Has name": true,
+					"Has text": true,
+					"Has constituency": true,
+					"Has election_id": true,
+					"Has vote": true
+				}
+			],
+			"time": "289",
+			"totalRequestTime": "289",
+			"iterationResults": {}
+		},
+		{
+			"name": "party Bund2",
+			"id": "14a87fe5-0d56-4f4c-b502-56c6253c6407",
+			"url": "http://yourchoice.local/api/party/8?token=BLbUP1N0aaQvdxusjBIVmnLiAJhQLZpN2f6NTe6hR1xxYwizUV",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"name": "Status code is 200",
+				"status": "pass",
+				"Has id_party": true,
+				"Has name": true,
+				"Has text": true,
+				"Has constituency": true,
+				"Has election_id": true,
+				"Has vote": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_party": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has text": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has vote": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"283"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has id_party": true,
+					"Has name": true,
+					"Has text": true,
+					"Has constituency": true,
+					"Has election_id": true,
+					"Has vote": true
+				}
+			],
+			"time": "283",
+			"totalRequestTime": "283",
+			"iterationResults": {}
+		},
+		{
+			"name": "party Landtag1",
+			"id": "6e9661bf-61e5-4216-b258-3fbf17c78b27",
+			"url": "http://yourchoice.local/api/party",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"tests": {
+				"name": "Status code is 200",
+				"status": "pass",
+				"Has id_party": true,
+				"Has name": true,
+				"Has text": true,
+				"Has constituency": true,
+				"Has election_id": true,
+				"Has vote": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_party": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has text": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has vote": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"299"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has id_party": true,
+					"Has name": true,
+					"Has text": true,
+					"Has constituency": true,
+					"Has election_id": true,
+					"Has vote": true
+				}
+			],
+			"time": "299",
+			"totalRequestTime": "299",
+			"iterationResults": {}
+		},
+		{
+			"name": "party Landtag1",
+			"id": "00e0a967-5790-4f93-8962-d1fceab08dee",
+			"url": "http://yourchoice.local/api/party/9?token=BLbUP1N0aaQvdxusjBIVmnLiAJhQLZpN2f6NTe6hR1xxYwizUV",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"name": "Status code is 200",
+				"status": "pass",
+				"Has id_party": true,
+				"Has name": true,
+				"Has text": true,
+				"Has constituency": true,
+				"Has election_id": true,
+				"Has vote": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_party": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has text": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has vote": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"272"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has id_party": true,
+					"Has name": true,
+					"Has text": true,
+					"Has constituency": true,
+					"Has election_id": true,
+					"Has vote": true
+				}
+			],
+			"time": "272",
+			"totalRequestTime": "272",
+			"iterationResults": {}
+		},
+		{
+			"name": "party Landtag2",
+			"id": "286d2695-fb8c-4a90-b8c3-176ca0969f02",
+			"url": "http://yourchoice.local/api/party",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"tests": {
+				"name": "Status code is 200",
+				"status": "pass",
+				"Has id_party": true,
+				"Has name": true,
+				"Has text": true,
+				"Has constituency": true,
+				"Has election_id": true,
+				"Has vote": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_party": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has text": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has vote": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"277"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has id_party": true,
+					"Has name": true,
+					"Has text": true,
+					"Has constituency": true,
+					"Has election_id": true,
+					"Has vote": true
+				}
+			],
+			"time": "277",
+			"totalRequestTime": "277",
+			"iterationResults": {}
+		},
+		{
+			"name": "party Landtag2",
+			"id": "2066ff78-33c1-481f-85f8-167f16dc37f7",
+			"url": "http://yourchoice.local/api/party/10?token=BLbUP1N0aaQvdxusjBIVmnLiAJhQLZpN2f6NTe6hR1xxYwizUV",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"name": "Status code is 200",
+				"status": "pass",
+				"Has id_party": true,
+				"Has name": true,
+				"Has text": true,
+				"Has constituency": true,
+				"Has election_id": true,
+				"Has vote": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_party": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has text": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has vote": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"325"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has id_party": true,
+					"Has name": true,
+					"Has text": true,
+					"Has constituency": true,
+					"Has election_id": true,
+					"Has vote": true
+				}
+			],
+			"time": "325",
+			"totalRequestTime": "325",
+			"iterationResults": {}
+		},
+		{
+			"name": "party LandtagSL1",
+			"id": "471ff491-2267-4eaa-a83c-f1702c3f1bb6",
+			"url": "http://yourchoice.local/api/party",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"tests": {
+				"name": "Status code is 200",
+				"status": "pass",
+				"Has id_party": true,
+				"Has name": true,
+				"Has text": true,
+				"Has constituency": true,
+				"Has election_id": true,
+				"Has vote": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_party": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has text": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has vote": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"351"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has id_party": true,
+					"Has name": true,
+					"Has text": true,
+					"Has constituency": true,
+					"Has election_id": true,
+					"Has vote": true
+				}
+			],
+			"time": "351",
+			"totalRequestTime": "351",
+			"iterationResults": {}
+		},
+		{
+			"name": "party LandtagSL1",
+			"id": "ed275610-c378-41a8-835a-7ef8626931f8",
+			"url": "http://yourchoice.local/api/party/11?token=BLbUP1N0aaQvdxusjBIVmnLiAJhQLZpN2f6NTe6hR1xxYwizUV",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"name": "Status code is 200",
+				"status": "pass",
+				"Has id_party": true,
+				"Has name": true,
+				"Has text": true,
+				"Has constituency": true,
+				"Has election_id": true,
+				"Has vote": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_party": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has text": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has vote": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"383"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has id_party": true,
+					"Has name": true,
+					"Has text": true,
+					"Has constituency": true,
+					"Has election_id": true,
+					"Has vote": true
+				}
+			],
+			"time": "383",
+			"totalRequestTime": "383",
+			"iterationResults": {}
+		},
+		{
+			"name": "party LandtagSL2",
+			"id": "89f46a8a-5a1d-49f9-9fe2-cc54beb6a437",
+			"url": "http://yourchoice.local/api/party",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"tests": {
+				"name": "Status code is 200",
+				"status": "pass",
+				"Has id_party": true,
+				"Has name": true,
+				"Has text": true,
+				"Has constituency": true,
+				"Has election_id": true,
+				"Has vote": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_party": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has text": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has vote": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"362"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has id_party": true,
+					"Has name": true,
+					"Has text": true,
+					"Has constituency": true,
+					"Has election_id": true,
+					"Has vote": true
+				}
+			],
+			"time": "362",
+			"totalRequestTime": "362",
+			"iterationResults": {}
+		},
+		{
+			"name": "party LandtagSL2",
+			"id": "ded43a38-30e8-4b98-b0a0-a0e3244f1664",
+			"url": "http://yourchoice.local/api/party/12?token=BLbUP1N0aaQvdxusjBIVmnLiAJhQLZpN2f6NTe6hR1xxYwizUV",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"name": "Status code is 200",
+				"status": "pass",
+				"Has id_party": true,
+				"Has name": true,
+				"Has text": true,
+				"Has constituency": true,
+				"Has election_id": true,
+				"Has vote": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_party": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has text": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has vote": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"324"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has id_party": true,
+					"Has name": true,
+					"Has text": true,
+					"Has constituency": true,
+					"Has election_id": true,
+					"Has vote": true
+				}
+			],
+			"time": "324",
+			"totalRequestTime": "324",
+			"iterationResults": {}
+		},
+		{
+			"name": "candidate Bund1",
+			"id": "0eeb78cb-a0e3-40f5-9462-6967e35ed0a5",
+			"url": "http://yourchoice.local/api/candidate",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"tests": {
+				"name": "Status code is 200",
+				"status": "pass",
+				"Has id_candidate": true,
+				"Has last_name": true,
+				"Has first_name": true,
+				"Has constituency": true,
+				"Has election_id": true,
+				"Has vote": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_candidate": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has last_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has first_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has vote": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"357"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has id_candidate": true,
+					"Has last_name": true,
+					"Has first_name": true,
+					"Has constituency": true,
+					"Has election_id": true,
+					"Has vote": true
+				}
+			],
+			"time": "357",
+			"totalRequestTime": "357",
+			"iterationResults": {}
+		},
+		{
+			"name": "candidate Bund1",
+			"id": "ca1c66b8-39e4-4c13-84c2-d860651d4882",
+			"url": "http://yourchoice.local/api/candidate/11?token=BLbUP1N0aaQvdxusjBIVmnLiAJhQLZpN2f6NTe6hR1xxYwizUV",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"name": "Status code is 200",
+				"status": "pass",
+				"Has id_candidate": true,
+				"Has last_name": true,
+				"Has first_name": true,
+				"Has constituency": true,
+				"Has election_id": true,
+				"Has vote": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_candidate": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has last_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has first_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has vote": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"358"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has id_candidate": true,
+					"Has last_name": true,
+					"Has first_name": true,
+					"Has constituency": true,
+					"Has election_id": true,
+					"Has vote": true
+				}
+			],
+			"time": "358",
+			"totalRequestTime": "358",
+			"iterationResults": {}
+		},
+		{
+			"name": "candidate Bund2",
+			"id": "80cf3a83-1ea8-497c-a6cf-75d0d25b50d0",
+			"url": "http://yourchoice.local/api/candidate",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"tests": {
+				"name": "Status code is 200",
+				"status": "pass",
+				"Has id_candidate": true,
+				"Has last_name": true,
+				"Has first_name": true,
+				"Has constituency": true,
+				"Has election_id": true,
+				"Has vote": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_candidate": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has last_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has first_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has vote": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"420"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has id_candidate": true,
+					"Has last_name": true,
+					"Has first_name": true,
+					"Has constituency": true,
+					"Has election_id": true,
+					"Has vote": true
+				}
+			],
+			"time": "420",
+			"totalRequestTime": "420",
+			"iterationResults": {}
+		},
+		{
+			"name": "candidate Bund2",
+			"id": "966ace82-9ac4-41c8-8d05-60845ca54669",
+			"url": "http://yourchoice.local/api/candidate/12?token=BLbUP1N0aaQvdxusjBIVmnLiAJhQLZpN2f6NTe6hR1xxYwizUV",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"name": "Status code is 200",
+				"status": "pass",
+				"Has id_candidate": true,
+				"Has last_name": true,
+				"Has first_name": true,
+				"Has constituency": true,
+				"Has election_id": true,
+				"Has vote": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_candidate": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has last_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has first_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has vote": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"362"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has id_candidate": true,
+					"Has last_name": true,
+					"Has first_name": true,
+					"Has constituency": true,
+					"Has election_id": true,
+					"Has vote": true
+				}
+			],
+			"time": "362",
+			"totalRequestTime": "362",
+			"iterationResults": {}
+		},
+		{
+			"name": "candidate Land1",
+			"id": "0f82d9c6-0cfb-44fa-b288-a169ede166b9",
+			"url": "http://yourchoice.local/api/candidate",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"tests": {
+				"name": "Status code is 200",
+				"status": "pass",
+				"Has id_candidate": true,
+				"Has last_name": true,
+				"Has first_name": true,
+				"Has constituency": true,
+				"Has election_id": true,
+				"Has vote": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_candidate": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has last_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has first_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has vote": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"361"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has id_candidate": true,
+					"Has last_name": true,
+					"Has first_name": true,
+					"Has constituency": true,
+					"Has election_id": true,
+					"Has vote": true
+				}
+			],
+			"time": "361",
+			"totalRequestTime": "361",
+			"iterationResults": {}
+		},
+		{
+			"name": "candidate Land1",
+			"id": "a378bbac-8bc9-4c86-83c5-f739cacc95d7",
+			"url": "http://yourchoice.local/api/candidate/13?token=BLbUP1N0aaQvdxusjBIVmnLiAJhQLZpN2f6NTe6hR1xxYwizUV",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"name": "Status code is 200",
+				"status": "pass",
+				"Has id_candidate": true,
+				"Has last_name": true,
+				"Has first_name": true,
+				"Has party_id": true,
+				"Has constituency": true,
+				"Has election_id": true,
+				"Has vote": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_candidate": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has last_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has first_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has party_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has vote": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"335"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has id_candidate": true,
+					"Has last_name": true,
+					"Has first_name": true,
+					"Has party_id": true,
+					"Has constituency": true,
+					"Has election_id": true,
+					"Has vote": true
+				}
+			],
+			"time": "335",
+			"totalRequestTime": "335",
+			"iterationResults": {}
+		},
+		{
+			"name": "candidate Land2",
+			"id": "6ff6f9ed-c8df-40cc-b975-fd69f2b68d51",
+			"url": "http://yourchoice.local/api/candidate",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"tests": {
+				"name": "Status code is 200",
+				"status": "pass",
+				"Has id_candidate": true,
+				"Has last_name": true,
+				"Has first_name": true,
+				"Has constituency": true,
+				"Has election_id": true,
+				"Has vote": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_candidate": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has last_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has first_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has vote": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"333"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has id_candidate": true,
+					"Has last_name": true,
+					"Has first_name": true,
+					"Has constituency": true,
+					"Has election_id": true,
+					"Has vote": true
+				}
+			],
+			"time": "333",
+			"totalRequestTime": "333",
+			"iterationResults": {}
+		},
+		{
+			"name": "candidate Land2",
+			"id": "0ca51d94-aeaa-4277-b64e-6265dde04c75",
+			"url": "http://yourchoice.local/api/candidate/14?token=BLbUP1N0aaQvdxusjBIVmnLiAJhQLZpN2f6NTe6hR1xxYwizUV",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"name": "Status code is 200",
+				"status": "pass",
+				"Has id_candidate": true,
+				"Has last_name": true,
+				"Has first_name": true,
+				"Has constituency": true,
+				"Has election_id": true,
+				"Has vote": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_candidate": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has last_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has first_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has vote": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"310"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has id_candidate": true,
+					"Has last_name": true,
+					"Has first_name": true,
+					"Has constituency": true,
+					"Has election_id": true,
+					"Has vote": true
+				}
+			],
+			"time": "310",
+			"totalRequestTime": "310",
+			"iterationResults": {}
+		},
+		{
+			"name": "candidate LandBW1",
+			"id": "285a7396-c7a2-4c65-b574-61f1b97e1066",
+			"url": "http://yourchoice.local/api/candidate",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"tests": {
+				"name": "Status code is 200",
+				"status": "pass",
+				"Has id_candidate": true,
+				"Has last_name": true,
+				"Has first_name": true,
+				"Has constituency": true,
+				"Has election_id": true,
+				"Has vote": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_candidate": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has last_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has first_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has vote": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"319"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has id_candidate": true,
+					"Has last_name": true,
+					"Has first_name": true,
+					"Has constituency": true,
+					"Has election_id": true,
+					"Has vote": true
+				}
+			],
+			"time": "319",
+			"totalRequestTime": "319",
+			"iterationResults": {}
+		},
+		{
+			"name": "candidate LandBW1",
+			"id": "cafba0ee-6d12-4cde-a585-8616cabd2d3a",
+			"url": "http://yourchoice.local/api/candidate/15?token=BLbUP1N0aaQvdxusjBIVmnLiAJhQLZpN2f6NTe6hR1xxYwizUV",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"name": "Status code is 200",
+				"status": "pass",
+				"Has id_candidate": true,
+				"Has last_name": true,
+				"Has first_name": true,
+				"Has constituency": true,
+				"Has election_id": true,
+				"Has vote": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_candidate": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has last_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has first_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has vote": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"310"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has id_candidate": true,
+					"Has last_name": true,
+					"Has first_name": true,
+					"Has constituency": true,
+					"Has election_id": true,
+					"Has vote": true
+				}
+			],
+			"time": "310",
+			"totalRequestTime": "310",
+			"iterationResults": {}
+		},
+		{
+			"name": "candidate LandBW2",
+			"id": "842ab70e-abaf-454a-96cc-ec1018e3fbce",
+			"url": "http://yourchoice.local/api/candidate",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"tests": {
+				"name": "Status code is 200",
+				"status": "pass",
+				"Has id_candidate": true,
+				"Has last_name": true,
+				"Has first_name": true,
+				"Has constituency": true,
+				"Has election_id": true,
+				"Has vote": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_candidate": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has last_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has first_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has vote": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"322"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has id_candidate": true,
+					"Has last_name": true,
+					"Has first_name": true,
+					"Has constituency": true,
+					"Has election_id": true,
+					"Has vote": true
+				}
+			],
+			"time": "322",
+			"totalRequestTime": "322",
+			"iterationResults": {}
+		},
+		{
+			"name": "candidate LandBW2",
+			"id": "a89a207c-926d-42c1-bc39-26a932aed217",
+			"url": "http://yourchoice.local/api/candidate/16?token=BLbUP1N0aaQvdxusjBIVmnLiAJhQLZpN2f6NTe6hR1xxYwizUV",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"name": "Status code is 200",
+				"status": "pass",
+				"Has id_candidate": true,
+				"Has last_name": true,
+				"Has first_name": true,
+				"Has constituency": true,
+				"Has election_id": true,
+				"Has vote": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_candidate": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has last_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has first_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has vote": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"335"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has id_candidate": true,
+					"Has last_name": true,
+					"Has first_name": true,
+					"Has constituency": true,
+					"Has election_id": true,
+					"Has vote": true
+				}
+			],
+			"time": "335",
+			"totalRequestTime": "335",
+			"iterationResults": {}
+		},
+		{
+			"name": "candidate Buerger1",
+			"id": "10fdb1b5-e2e7-48e4-9e54-27ae9314cfc7",
+			"url": "http://yourchoice.local/api/candidate",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"tests": {
+				"name": "Status code is 200",
+				"status": "pass",
+				"Has id_candidate": true,
+				"Has last_name": true,
+				"Has first_name": true,
+				"Has constituency": true,
+				"Has election_id": true,
+				"Has vote": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_candidate": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has last_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has first_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has vote": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"331"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has id_candidate": true,
+					"Has last_name": true,
+					"Has first_name": true,
+					"Has constituency": true,
+					"Has election_id": true,
+					"Has vote": true
+				}
+			],
+			"time": "331",
+			"totalRequestTime": "331",
+			"iterationResults": {}
+		},
+		{
+			"name": "candidate Buerger1",
+			"id": "75de2b8f-27f3-45f8-a412-b203c2a35808",
+			"url": "http://yourchoice.local/api/candidate/17?token=BLbUP1N0aaQvdxusjBIVmnLiAJhQLZpN2f6NTe6hR1xxYwizUV",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"name": "Status code is 200",
+				"status": "pass",
+				"Has id_candidate": true,
+				"Has last_name": true,
+				"Has first_name": true,
+				"Has constituency": true,
+				"Has election_id": true,
+				"Has vote": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_candidate": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has last_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has first_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has vote": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"340"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has id_candidate": true,
+					"Has last_name": true,
+					"Has first_name": true,
+					"Has constituency": true,
+					"Has election_id": true,
+					"Has vote": true
+				}
+			],
+			"time": "340",
+			"totalRequestTime": "340",
+			"iterationResults": {}
+		},
+		{
+			"name": "candidate Buerger2",
+			"id": "0b822a5e-f348-4435-867c-b75dfc1a1722",
+			"url": "http://yourchoice.local/api/candidate",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"tests": {
+				"name": "Status code is 200",
+				"status": "pass",
+				"Has id_candidate": true,
+				"Has last_name": true,
+				"Has first_name": true,
+				"Has constituency": true,
+				"Has election_id": true,
+				"Has vote": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_candidate": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has last_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has first_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has vote": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"310"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has id_candidate": true,
+					"Has last_name": true,
+					"Has first_name": true,
+					"Has constituency": true,
+					"Has election_id": true,
+					"Has vote": true
+				}
+			],
+			"time": "310",
+			"totalRequestTime": "310",
+			"iterationResults": {}
+		},
+		{
+			"name": "candidate Buerger2",
+			"id": "ed659365-e941-4908-8a03-2388aede3a47",
+			"url": "http://yourchoice.local/api/candidate/18?token=BLbUP1N0aaQvdxusjBIVmnLiAJhQLZpN2f6NTe6hR1xxYwizUV",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"name": "Status code is 200",
+				"status": "pass",
+				"Has id_candidate": true,
+				"Has last_name": true,
+				"Has first_name": true,
+				"Has constituency": true,
+				"Has election_id": true,
+				"Has vote": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_candidate": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has last_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has first_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has vote": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"290"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has id_candidate": true,
+					"Has last_name": true,
+					"Has first_name": true,
+					"Has constituency": true,
+					"Has election_id": true,
+					"Has vote": true
+				}
+			],
+			"time": "290",
+			"totalRequestTime": "290",
+			"iterationResults": {}
+		},
+		{
+			"name": "candidate Europa1",
+			"id": "0c55290e-be64-473b-a981-4a01bd0c9c1c",
+			"url": "http://yourchoice.local/api/candidate",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"tests": {
+				"name": "Status code is 200",
+				"status": "pass",
+				"Has id_candidate": true,
+				"Has last_name": true,
+				"Has first_name": true,
+				"Has constituency": true,
+				"Has election_id": true,
+				"Has vote": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_candidate": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has last_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has first_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has vote": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"305"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has id_candidate": true,
+					"Has last_name": true,
+					"Has first_name": true,
+					"Has constituency": true,
+					"Has election_id": true,
+					"Has vote": true
+				}
+			],
+			"time": "305",
+			"totalRequestTime": "305",
+			"iterationResults": {}
+		},
+		{
+			"name": "candidate Europa1",
+			"id": "2e4727a3-4463-40a7-8dd6-5140b4ce4456",
+			"url": "http://yourchoice.local/api/candidate/19?token=BLbUP1N0aaQvdxusjBIVmnLiAJhQLZpN2f6NTe6hR1xxYwizUV",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"name": "Status code is 200",
+				"status": "pass",
+				"Has id_candidate": true,
+				"Has last_name": true,
+				"Has first_name": true,
+				"Has constituency": true,
+				"Has election_id": true,
+				"Has vote": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_candidate": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has last_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has first_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has vote": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"339"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has id_candidate": true,
+					"Has last_name": true,
+					"Has first_name": true,
+					"Has constituency": true,
+					"Has election_id": true,
+					"Has vote": true
+				}
+			],
+			"time": "339",
+			"totalRequestTime": "339",
+			"iterationResults": {}
+		},
+		{
+			"name": "candidate Europa2",
+			"id": "7745d4fb-aff8-4f9b-8917-890dbaf88d00",
+			"url": "http://yourchoice.local/api/candidate",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"tests": {
+				"name": "Status code is 200",
+				"status": "pass",
+				"Has id_candidate": true,
+				"Has last_name": true,
+				"Has first_name": true,
+				"Has constituency": true,
+				"Has election_id": true,
+				"Has vote": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_candidate": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has last_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has first_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has vote": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"330"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has id_candidate": true,
+					"Has last_name": true,
+					"Has first_name": true,
+					"Has constituency": true,
+					"Has election_id": true,
+					"Has vote": true
+				}
+			],
+			"time": "330",
+			"totalRequestTime": "330",
+			"iterationResults": {}
+		},
+		{
+			"name": "candidate Europa2",
+			"id": "2ad1a7bd-b898-4958-8dc4-d820f04d9031",
+			"url": "http://yourchoice.local/api/candidate/20?token=BLbUP1N0aaQvdxusjBIVmnLiAJhQLZpN2f6NTe6hR1xxYwizUV",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"name": "Status code is 200",
+				"status": "pass",
+				"Has id_candidate": true,
+				"Has last_name": true,
+				"Has first_name": true,
+				"Has constituency": true,
+				"Has election_id": true,
+				"Has vote": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_candidate": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has last_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has first_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has vote": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"274"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has id_candidate": true,
+					"Has last_name": true,
+					"Has first_name": true,
+					"Has constituency": true,
+					"Has election_id": true,
+					"Has vote": true
+				}
+			],
+			"time": "274",
+			"totalRequestTime": "274",
+			"iterationResults": {}
+		},
+		{
+			"name": "referendum1",
+			"id": "74c3adfb-665a-4834-b134-1949370ce1c6",
+			"url": "http://yourchoice.local/api/referendum",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"tests": {
+				"name": "Status code is 201",
+				"status": "pass",
+				"Has id_referendum": true,
+				"Has text": true,
+				"Has constituency": true,
+				"Has election_id": true,
+				"Has yes": true,
+				"Has no": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_referendum": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has text": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has yes": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has no": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"314"
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"Has id_referendum": true,
+					"Has text": true,
+					"Has constituency": true,
+					"Has election_id": true,
+					"Has yes": true,
+					"Has no": true
+				}
+			],
+			"time": "314",
+			"totalRequestTime": "314",
+			"iterationResults": {}
+		},
+		{
+			"name": "referendum1",
+			"id": "f8930e61-fc77-4388-bebf-f496dfed336f",
+			"url": "http://yourchoice.local/api/referendum/3?token=BLbUP1N0aaQvdxusjBIVmnLiAJhQLZpN2f6NTe6hR1xxYwizUV",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"name": "Status code is 200",
+				"status": "pass",
+				"Has id_referendum": true,
+				"Has text": true,
+				"Has constituency": true,
+				"Has election_id": true,
+				"Has yes": true,
+				"Has no": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_referendum": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has text": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has yes": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has no": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"285"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has id_referendum": true,
+					"Has text": true,
+					"Has constituency": true,
+					"Has election_id": true,
+					"Has yes": true,
+					"Has no": true
+				}
+			],
+			"time": "285",
+			"totalRequestTime": "285",
+			"iterationResults": {}
+		},
+		{
+			"name": "referendum2",
+			"id": "0a748a4c-2827-4258-8dea-a46305e7c241",
+			"url": "http://yourchoice.local/api/referendum",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"tests": {
+				"name": "Status code is 201",
+				"status": "pass",
+				"Has id_referendum": true,
+				"Has text": true,
+				"Has constituency": true,
+				"Has election_id": true,
+				"Has yes": true,
+				"Has no": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_referendum": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has text": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has yes": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has no": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"290"
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"Has id_referendum": true,
+					"Has text": true,
+					"Has constituency": true,
+					"Has election_id": true,
+					"Has yes": true,
+					"Has no": true
+				}
+			],
+			"time": "290",
+			"totalRequestTime": "290",
+			"iterationResults": {}
+		},
+		{
+			"name": "referendum2",
+			"id": "1fa6f6cf-6bc3-438a-9862-122d50f87e5f",
+			"url": "http://yourchoice.local/api/referendum/4?token=BLbUP1N0aaQvdxusjBIVmnLiAJhQLZpN2f6NTe6hR1xxYwizUV",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"name": "Status code is 200",
+				"status": "pass",
+				"Has id_referendum": true,
+				"Has text": true,
+				"Has constituency": true,
+				"Has election_id": true,
+				"Has yes": true,
+				"Has no": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_referendum": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has text": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has yes": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has no": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"318"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has id_referendum": true,
+					"Has text": true,
+					"Has constituency": true,
+					"Has election_id": true,
+					"Has yes": true,
+					"Has no": true
+				}
+			],
+			"time": "318",
+			"totalRequestTime": "318",
+			"iterationResults": {}
+		},
+		{
+			"name": "evaluate Bundestag",
+			"id": "f3c096a2-0a36-465c-973b-ebdd90da7189",
+			"url": "http://yourChoice.local/api/election/9/evaluate?token=BLbUP1N0aaQvdxusjBIVmnLiAJhQLZpN2f6NTe6hR1xxYwizUV",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found",
+				"detail": {
+					"name": "Not Found",
+					"detail": "The requested resource could not be found but may be available again in the future. Subsequent requests by the client are permissible."
+				}
+			},
+			"testPassFailCounts": {},
+			"times": [
+				"379"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "379",
+			"totalRequestTime": "379",
+			"iterationResults": {}
+		}
+	],
+	"totalPass": 420,
+	"totalFail": 0,
+	"totalTime": 21572,
+	"lifecycle": "done",
+	"requests": [
+		{
+			"name": "loginUser",
+			"id": "9c175bc8-9360-4593-854b-e58ff665e28d",
+			"url": "http://yourchoice.local/api/login/user",
+			"time": "2018-06-19T19:02:40.416Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has token": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has role": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "election Bundestag",
+			"id": "a2c9f662-310b-45bd-a8a4-ecb0f160f6bf",
+			"url": "http://yourChoice.local/api/election",
+			"time": "2018-06-19T19:02:40.416Z",
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_election": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has typ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has text": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has state": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "election Bundestag",
+			"id": "3c61b6a4-d8e2-4483-9274-28469e5281db",
+			"url": "http://yourchoice.local/api/election/9?token=BLbUP1N0aaQvdxusjBIVmnLiAJhQLZpN2f6NTe6hR1xxYwizUV",
+			"time": "2018-06-19T19:02:40.416Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_election": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has typ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has text": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has state": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "election Landtag",
+			"id": "28cda788-c1dc-4950-9366-8e87370c9a55",
+			"url": "http://yourChoice.local/api/election",
+			"time": "2018-06-19T19:02:40.416Z",
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_election": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has typ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has text": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has state": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "election Landtag",
+			"id": "dda2c90c-11ef-427d-9b6b-8202785ebbf8",
+			"url": "http://yourchoice.local/api/election/10?token=BLbUP1N0aaQvdxusjBIVmnLiAJhQLZpN2f6NTe6hR1xxYwizUV",
+			"time": "2018-06-19T19:02:40.416Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_election": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has typ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has text": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has state": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "election LandtagBW",
+			"id": "9acd560c-ef73-46a3-b431-b07224b8c26d",
+			"url": "http://yourChoice.local/api/election",
+			"time": "2018-06-19T19:02:40.416Z",
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_election": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has typ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has text": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has state": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "election LandtagBW",
+			"id": "6c1c4a5b-6178-4e60-a120-5ca904d6af17",
+			"url": "http://yourchoice.local/api/election/11?token=BLbUP1N0aaQvdxusjBIVmnLiAJhQLZpN2f6NTe6hR1xxYwizUV",
+			"time": "2018-06-19T19:02:40.416Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_election": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has typ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has text": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has state": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "election LandtagSL",
+			"id": "cc8a64ac-6058-42a4-b6af-08beb377937f",
+			"url": "http://yourChoice.local/api/election",
+			"time": "2018-06-19T19:02:40.416Z",
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_election": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has typ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has text": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has state": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "election LandtagSL",
+			"id": "74774419-aa7c-40e1-b3cc-801ed5c6b478",
+			"url": "http://yourchoice.local/api/election/12?token=BLbUP1N0aaQvdxusjBIVmnLiAJhQLZpN2f6NTe6hR1xxYwizUV",
+			"time": "2018-06-19T19:02:40.416Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_election": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has typ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has text": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has state": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "election Buerger",
+			"id": "d42ed74d-ce7b-40e0-a693-1bd404d67db1",
+			"url": "http://yourChoice.local/api/election",
+			"time": "2018-06-19T19:02:40.416Z",
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_election": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has typ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has text": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has state": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "election Buerger",
+			"id": "afa3bfd8-a275-47cb-84f1-88d1d93557df",
+			"url": "http://yourchoice.local/api/election/13?token=BLbUP1N0aaQvdxusjBIVmnLiAJhQLZpN2f6NTe6hR1xxYwizUV",
+			"time": "2018-06-19T19:02:40.416Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_election": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has typ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has text": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has state": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "election Europa",
+			"id": "f97b43ac-a04b-4101-86de-c8219833b70e",
+			"url": "http://yourChoice.local/api/election",
+			"time": "2018-06-19T19:02:40.416Z",
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_election": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has typ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has text": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has state": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "election Europa",
+			"id": "45f314fe-8662-4e12-9ee4-99a2097ad7b2",
+			"url": "http://yourchoice.local/api/election/14?token=BLbUP1N0aaQvdxusjBIVmnLiAJhQLZpN2f6NTe6hR1xxYwizUV",
+			"time": "2018-06-19T19:02:40.416Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_election": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has typ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has text": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has state": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "election Ref1",
+			"id": "c352be09-045f-457e-9493-f3fdc6ec4b03",
+			"url": "http://yourChoice.local/api/election",
+			"time": "2018-06-19T19:02:40.416Z",
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_election": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has typ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has text": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has state": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "election Ref1",
+			"id": "12e22b06-e4bc-4a4a-9588-21cb156522ee",
+			"url": "http://yourchoice.local/api/election/15?token=BLbUP1N0aaQvdxusjBIVmnLiAJhQLZpN2f6NTe6hR1xxYwizUV",
+			"time": "2018-06-19T19:02:40.416Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_election": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has typ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has text": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has state": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "election Ref2",
+			"id": "d011c380-ddcb-4bcc-8099-60a197da9bdc",
+			"url": "http://yourChoice.local/api/election",
+			"time": "2018-06-19T19:02:40.416Z",
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_election": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has typ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has text": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has state": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "election Ref2",
+			"id": "841950d1-4389-4945-bdef-26c1d35aa329",
+			"url": "http://yourchoice.local/api/election/16?token=BLbUP1N0aaQvdxusjBIVmnLiAJhQLZpN2f6NTe6hR1xxYwizUV",
+			"time": "2018-06-19T19:02:40.416Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_election": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has typ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has text": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has state": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "voter Bund",
+			"id": "ce112112-397d-48b2-b78b-8ae8da8b2b08",
+			"url": "http://yourchoice.local/api/voter",
+			"time": "2018-06-19T19:02:40.416Z",
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_voter": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has last_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has first_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has hash": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "voter Bund",
+			"id": "51204f55-e373-47c5-9696-18af9a63686f",
+			"url": "http://yourchoice.local/api/voter/8?token=BLbUP1N0aaQvdxusjBIVmnLiAJhQLZpN2f6NTe6hR1xxYwizUV",
+			"time": "2018-06-19T19:02:40.416Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_voter": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has last_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has first_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has hash": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "voter Land",
+			"id": "9d0ee1e5-3eeb-44dc-b6bc-19e530b2fe04",
+			"url": "http://yourchoice.local/api/voter",
+			"time": "2018-06-19T19:02:40.416Z",
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_voter": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has last_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has first_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has hash": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "voter Land",
+			"id": "a696981d-ae0c-436d-b8e6-19dd31e8db5f",
+			"url": "http://yourchoice.local/api/voter/9?token=BLbUP1N0aaQvdxusjBIVmnLiAJhQLZpN2f6NTe6hR1xxYwizUV",
+			"time": "2018-06-19T19:02:40.416Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_voter": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has last_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has first_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has hash": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "voter LandBW",
+			"id": "026c138c-457a-4d4f-a0a9-72555fa263fc",
+			"url": "http://yourchoice.local/api/voter",
+			"time": "2018-06-19T19:02:40.416Z",
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_voter": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has last_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has first_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has hash": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "voter LandBW",
+			"id": "2ee8c3d4-3ed1-4fe6-b8c5-8f91afd829b1",
+			"url": "http://yourchoice.local/api/voter/10?token=BLbUP1N0aaQvdxusjBIVmnLiAJhQLZpN2f6NTe6hR1xxYwizUV",
+			"time": "2018-06-19T19:02:40.416Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_voter": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has last_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has first_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has hash": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "voter LandSL",
+			"id": "8dc44dee-9942-4534-825a-f875a7528758",
+			"url": "http://yourchoice.local/api/voter",
+			"time": "2018-06-19T19:02:40.416Z",
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_voter": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has last_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has first_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has hash": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "voter LandSL",
+			"id": "0e59fe8b-9b4a-453a-a5f4-73d511689a33",
+			"url": "http://yourchoice.local/api/voter/11?token=BLbUP1N0aaQvdxusjBIVmnLiAJhQLZpN2f6NTe6hR1xxYwizUV",
+			"time": "2018-06-19T19:02:40.416Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_voter": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has last_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has first_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has hash": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "voter Buerger",
+			"id": "775b9579-1aa5-4018-b375-40ab209bc7da",
+			"url": "http://yourchoice.local/api/voter",
+			"time": "2018-06-19T19:02:40.416Z",
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_voter": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has last_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has first_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has hash": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "voter Buerger",
+			"id": "cc4c8753-f340-46d5-8881-299910ef127a",
+			"url": "http://yourchoice.local/api/voter/12?token=BLbUP1N0aaQvdxusjBIVmnLiAJhQLZpN2f6NTe6hR1xxYwizUV",
+			"time": "2018-06-19T19:02:40.416Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_voter": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has last_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has first_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has hash": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "voter Europa",
+			"id": "e6ac0162-77f0-4b1c-8caa-0c292b7b52fc",
+			"url": "http://yourchoice.local/api/voter",
+			"time": "2018-06-19T19:02:40.416Z",
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_voter": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has last_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has first_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has hash": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "voter Europa",
+			"id": "27545f8a-21d0-43fc-9944-c1a66e1849df",
+			"url": "http://yourchoice.local/api/voter/13?token=BLbUP1N0aaQvdxusjBIVmnLiAJhQLZpN2f6NTe6hR1xxYwizUV",
+			"time": "2018-06-19T19:02:40.416Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_voter": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has last_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has first_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has hash": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "voter Ref",
+			"id": "c96a5332-e067-4c57-9b4c-9c016e17d1cb",
+			"url": "http://yourchoice.local/api/voter",
+			"time": "2018-06-19T19:02:40.416Z",
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_voter": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has last_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has first_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has hash": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "voter Ref",
+			"id": "04d11359-f0de-4888-b52b-0992c051f036",
+			"url": "http://yourchoice.local/api/voter/14?token=BLbUP1N0aaQvdxusjBIVmnLiAJhQLZpN2f6NTe6hR1xxYwizUV",
+			"time": "2018-06-19T19:02:40.416Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_voter": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has last_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has first_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has hash": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "party Bund1",
+			"id": "e3c9f7d9-3383-432f-9cb4-c13e7266b9a1",
+			"url": "http://yourchoice.local/api/party",
+			"time": "2018-06-19T19:02:40.416Z",
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_party": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has text": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has vote": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "party Bund1",
+			"id": "22c16000-6362-40a0-8997-ed775a917588",
+			"url": "http://yourchoice.local/api/party/7?token=BLbUP1N0aaQvdxusjBIVmnLiAJhQLZpN2f6NTe6hR1xxYwizUV",
+			"time": "2018-06-19T19:02:40.416Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_party": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has text": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has vote": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "party Bund2",
+			"id": "79116eda-13ae-4070-af7c-945aa023169b",
+			"url": "http://yourchoice.local/api/party",
+			"time": "2018-06-19T19:02:40.416Z",
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_party": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has text": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has vote": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "party Bund2",
+			"id": "14a87fe5-0d56-4f4c-b502-56c6253c6407",
+			"url": "http://yourchoice.local/api/party/8?token=BLbUP1N0aaQvdxusjBIVmnLiAJhQLZpN2f6NTe6hR1xxYwizUV",
+			"time": "2018-06-19T19:02:40.416Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_party": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has text": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has vote": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "party Landtag1",
+			"id": "6e9661bf-61e5-4216-b258-3fbf17c78b27",
+			"url": "http://yourchoice.local/api/party",
+			"time": "2018-06-19T19:02:40.416Z",
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_party": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has text": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has vote": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "party Landtag1",
+			"id": "00e0a967-5790-4f93-8962-d1fceab08dee",
+			"url": "http://yourchoice.local/api/party/9?token=BLbUP1N0aaQvdxusjBIVmnLiAJhQLZpN2f6NTe6hR1xxYwizUV",
+			"time": "2018-06-19T19:02:40.416Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_party": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has text": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has vote": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "party Landtag2",
+			"id": "286d2695-fb8c-4a90-b8c3-176ca0969f02",
+			"url": "http://yourchoice.local/api/party",
+			"time": "2018-06-19T19:02:40.416Z",
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_party": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has text": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has vote": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "party Landtag2",
+			"id": "2066ff78-33c1-481f-85f8-167f16dc37f7",
+			"url": "http://yourchoice.local/api/party/10?token=BLbUP1N0aaQvdxusjBIVmnLiAJhQLZpN2f6NTe6hR1xxYwizUV",
+			"time": "2018-06-19T19:02:40.416Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_party": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has text": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has vote": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "party LandtagSL1",
+			"id": "471ff491-2267-4eaa-a83c-f1702c3f1bb6",
+			"url": "http://yourchoice.local/api/party",
+			"time": "2018-06-19T19:02:40.416Z",
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_party": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has text": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has vote": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "party LandtagSL1",
+			"id": "ed275610-c378-41a8-835a-7ef8626931f8",
+			"url": "http://yourchoice.local/api/party/11?token=BLbUP1N0aaQvdxusjBIVmnLiAJhQLZpN2f6NTe6hR1xxYwizUV",
+			"time": "2018-06-19T19:02:40.416Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_party": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has text": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has vote": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "party LandtagSL2",
+			"id": "89f46a8a-5a1d-49f9-9fe2-cc54beb6a437",
+			"url": "http://yourchoice.local/api/party",
+			"time": "2018-06-19T19:02:40.416Z",
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_party": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has text": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has vote": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "party LandtagSL2",
+			"id": "ded43a38-30e8-4b98-b0a0-a0e3244f1664",
+			"url": "http://yourchoice.local/api/party/12?token=BLbUP1N0aaQvdxusjBIVmnLiAJhQLZpN2f6NTe6hR1xxYwizUV",
+			"time": "2018-06-19T19:02:40.416Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_party": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has text": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has vote": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "candidate Bund1",
+			"id": "0eeb78cb-a0e3-40f5-9462-6967e35ed0a5",
+			"url": "http://yourchoice.local/api/candidate",
+			"time": "2018-06-19T19:02:40.416Z",
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_candidate": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has last_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has first_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has vote": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "candidate Bund1",
+			"id": "ca1c66b8-39e4-4c13-84c2-d860651d4882",
+			"url": "http://yourchoice.local/api/candidate/11?token=BLbUP1N0aaQvdxusjBIVmnLiAJhQLZpN2f6NTe6hR1xxYwizUV",
+			"time": "2018-06-19T19:02:40.416Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_candidate": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has last_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has first_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has vote": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "candidate Bund2",
+			"id": "80cf3a83-1ea8-497c-a6cf-75d0d25b50d0",
+			"url": "http://yourchoice.local/api/candidate",
+			"time": "2018-06-19T19:02:40.416Z",
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_candidate": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has last_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has first_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has vote": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "candidate Bund2",
+			"id": "966ace82-9ac4-41c8-8d05-60845ca54669",
+			"url": "http://yourchoice.local/api/candidate/12?token=BLbUP1N0aaQvdxusjBIVmnLiAJhQLZpN2f6NTe6hR1xxYwizUV",
+			"time": "2018-06-19T19:02:40.416Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_candidate": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has last_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has first_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has vote": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "candidate Land1",
+			"id": "0f82d9c6-0cfb-44fa-b288-a169ede166b9",
+			"url": "http://yourchoice.local/api/candidate",
+			"time": "2018-06-19T19:02:40.416Z",
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_candidate": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has last_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has first_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has vote": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "candidate Land1",
+			"id": "a378bbac-8bc9-4c86-83c5-f739cacc95d7",
+			"url": "http://yourchoice.local/api/candidate/13?token=BLbUP1N0aaQvdxusjBIVmnLiAJhQLZpN2f6NTe6hR1xxYwizUV",
+			"time": "2018-06-19T19:02:40.416Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_candidate": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has last_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has first_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has party_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has vote": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "candidate Land2",
+			"id": "6ff6f9ed-c8df-40cc-b975-fd69f2b68d51",
+			"url": "http://yourchoice.local/api/candidate",
+			"time": "2018-06-19T19:02:40.416Z",
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_candidate": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has last_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has first_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has vote": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "candidate Land2",
+			"id": "0ca51d94-aeaa-4277-b64e-6265dde04c75",
+			"url": "http://yourchoice.local/api/candidate/14?token=BLbUP1N0aaQvdxusjBIVmnLiAJhQLZpN2f6NTe6hR1xxYwizUV",
+			"time": "2018-06-19T19:02:40.416Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_candidate": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has last_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has first_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has vote": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "candidate LandBW1",
+			"id": "285a7396-c7a2-4c65-b574-61f1b97e1066",
+			"url": "http://yourchoice.local/api/candidate",
+			"time": "2018-06-19T19:02:40.416Z",
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_candidate": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has last_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has first_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has vote": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "candidate LandBW1",
+			"id": "cafba0ee-6d12-4cde-a585-8616cabd2d3a",
+			"url": "http://yourchoice.local/api/candidate/15?token=BLbUP1N0aaQvdxusjBIVmnLiAJhQLZpN2f6NTe6hR1xxYwizUV",
+			"time": "2018-06-19T19:02:40.416Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_candidate": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has last_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has first_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has vote": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "candidate LandBW2",
+			"id": "842ab70e-abaf-454a-96cc-ec1018e3fbce",
+			"url": "http://yourchoice.local/api/candidate",
+			"time": "2018-06-19T19:02:40.416Z",
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_candidate": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has last_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has first_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has vote": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "candidate LandBW2",
+			"id": "a89a207c-926d-42c1-bc39-26a932aed217",
+			"url": "http://yourchoice.local/api/candidate/16?token=BLbUP1N0aaQvdxusjBIVmnLiAJhQLZpN2f6NTe6hR1xxYwizUV",
+			"time": "2018-06-19T19:02:40.416Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_candidate": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has last_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has first_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has vote": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "candidate Buerger1",
+			"id": "10fdb1b5-e2e7-48e4-9e54-27ae9314cfc7",
+			"url": "http://yourchoice.local/api/candidate",
+			"time": "2018-06-19T19:02:40.416Z",
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_candidate": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has last_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has first_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has vote": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "candidate Buerger1",
+			"id": "75de2b8f-27f3-45f8-a412-b203c2a35808",
+			"url": "http://yourchoice.local/api/candidate/17?token=BLbUP1N0aaQvdxusjBIVmnLiAJhQLZpN2f6NTe6hR1xxYwizUV",
+			"time": "2018-06-19T19:02:40.416Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_candidate": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has last_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has first_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has vote": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "candidate Buerger2",
+			"id": "0b822a5e-f348-4435-867c-b75dfc1a1722",
+			"url": "http://yourchoice.local/api/candidate",
+			"time": "2018-06-19T19:02:40.416Z",
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_candidate": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has last_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has first_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has vote": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "candidate Buerger2",
+			"id": "ed659365-e941-4908-8a03-2388aede3a47",
+			"url": "http://yourchoice.local/api/candidate/18?token=BLbUP1N0aaQvdxusjBIVmnLiAJhQLZpN2f6NTe6hR1xxYwizUV",
+			"time": "2018-06-19T19:02:40.416Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_candidate": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has last_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has first_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has vote": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "candidate Europa1",
+			"id": "0c55290e-be64-473b-a981-4a01bd0c9c1c",
+			"url": "http://yourchoice.local/api/candidate",
+			"time": "2018-06-19T19:02:40.416Z",
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_candidate": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has last_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has first_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has vote": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "candidate Europa1",
+			"id": "2e4727a3-4463-40a7-8dd6-5140b4ce4456",
+			"url": "http://yourchoice.local/api/candidate/19?token=BLbUP1N0aaQvdxusjBIVmnLiAJhQLZpN2f6NTe6hR1xxYwizUV",
+			"time": "2018-06-19T19:02:40.416Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_candidate": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has last_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has first_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has vote": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "candidate Europa2",
+			"id": "7745d4fb-aff8-4f9b-8917-890dbaf88d00",
+			"url": "http://yourchoice.local/api/candidate",
+			"time": "2018-06-19T19:02:40.416Z",
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_candidate": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has last_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has first_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has vote": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "candidate Europa2",
+			"id": "2ad1a7bd-b898-4958-8dc4-d820f04d9031",
+			"url": "http://yourchoice.local/api/candidate/20?token=BLbUP1N0aaQvdxusjBIVmnLiAJhQLZpN2f6NTe6hR1xxYwizUV",
+			"time": "2018-06-19T19:02:40.416Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_candidate": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has last_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has first_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has vote": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "referendum1",
+			"id": "74c3adfb-665a-4834-b134-1949370ce1c6",
+			"url": "http://yourchoice.local/api/referendum",
+			"time": "2018-06-19T19:02:40.416Z",
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_referendum": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has text": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has yes": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has no": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "referendum1",
+			"id": "f8930e61-fc77-4388-bebf-f496dfed336f",
+			"url": "http://yourchoice.local/api/referendum/3?token=BLbUP1N0aaQvdxusjBIVmnLiAJhQLZpN2f6NTe6hR1xxYwizUV",
+			"time": "2018-06-19T19:02:40.416Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_referendum": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has text": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has yes": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has no": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "referendum2",
+			"id": "0a748a4c-2827-4258-8dea-a46305e7c241",
+			"url": "http://yourchoice.local/api/referendum",
+			"time": "2018-06-19T19:02:40.416Z",
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_referendum": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has text": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has yes": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has no": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "referendum2",
+			"id": "1fa6f6cf-6bc3-438a-9862-122d50f87e5f",
+			"url": "http://yourchoice.local/api/referendum/4?token=BLbUP1N0aaQvdxusjBIVmnLiAJhQLZpN2f6NTe6hR1xxYwizUV",
+			"time": "2018-06-19T19:02:40.416Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has id_referendum": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has text": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has constituency": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has election_id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has yes": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has no": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "evaluate Bundestag",
+			"id": "f3c096a2-0a36-465c-973b-ebdd90da7189",
+			"url": "http://yourChoice.local/api/election/9/evaluate?token=BLbUP1N0aaQvdxusjBIVmnLiAJhQLZpN2f6NTe6hR1xxYwizUV",
+			"time": "2018-06-19T19:02:40.416Z",
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found",
+				"detail": {
+					"name": "Not Found",
+					"detail": "The requested resource could not be found but may be available again in the future. Subsequent requests by the client are permissible."
+				}
+			},
+			"testPassFailCounts": {}
+		}
+	],
+	"synced": false
+}
